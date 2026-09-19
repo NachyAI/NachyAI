@@ -1,16 +1,28 @@
-## Hi there 👋
+# NachyAI
 
-<!--
-**NachyAI/NachyAI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Turn an idea into a video.**
 
-Here are some ideas to get you started:
+NachyAI is an AI-powered short-form video creation platform for creators, brands and businesses.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Included in this V1 foundation
+- Responsive black/orange landing page
+- Dashboard
+- Create Video workflow
+- Media picker
+- Style selection
+- 15-second vertical-video settings
+- My Videos page
+- `/api/generate` job endpoint scaffold
+- Environment template for Supabase and a video provider
+
+## Run locally
+1. Install Node.js 20+
+2. `npm install`
+3. Copy `.env.example` to `.env.local`
+4. `npm run dev`
+5. Open `http://localhost:3000`
+
+## Next build milestones
+Supabase auth/database/storage, persistent jobs and credits, AI script/storyboard generation, video-provider integration, rendering/voice/captions, Stripe billing, and production deployment.
+
+**Never commit API keys or service-role credentials.**
